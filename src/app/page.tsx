@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { ListTodo, Timer, BookOpen, Brain, Search, Home } from "lucide-react";
+import { ListTodo, Timer, BookOpen, Brain, Search, Home as HomeIcon } from "lucide-react";
 
 export default function Home() {
   const features = [
@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-12 text-gray-500 text-sm flex items-center gap-2">
-        <Home size={14} /> Made with ❤️ by Students, for Students
+        <HomeIcon size={14} /> Made with ❤️ by Students, for Students
       </footer>
     </section>
   );
